@@ -5,7 +5,7 @@ markdownDescription: |-
   ## Item Action Type
   Item Action Types operate on a stack of items. These are available to power/action types that provides an item_action object field.
 
-  [Item Action Types Documentation](https://origins.readthedocs.io/en/latest/types/item_Action_types/)
+  [Item Action Types Documentation](https://origins.readthedocs.io/en/latest/types/item_action_types/)
 type: object
 required:
   - type

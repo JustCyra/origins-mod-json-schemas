@@ -2,7 +2,7 @@
 	"$id": "https://snavesutit.github.io/origins-mod-schemas/schemas/entity_action.json",
 	"title": "Entity Action Type",
 	"description": "Entity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.",
-	"markdownDescription": "## Entity Action Type\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.\n\n[Entity Action Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_Action_types/)",
+	"markdownDescription": "## Entity Action Type\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.\n\n[Entity Action Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_action_types/)",
 	"type": "object",
 	"required": [
 		"type"
@@ -663,7 +663,7 @@
 					"properties": {
 						"type": {
 							"description": "apoli:and\nExecutes all provided actions in order.\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.",
-							"markdownDescription": "### `apoli:and`\nExecutes all provided actions in order.\n## Entity Action Type\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.\n\n[Entity Action Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_Action_types/)",
+							"markdownDescription": "### `apoli:and`\nExecutes all provided actions in order.\n## Entity Action Type\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.\n\n[Entity Action Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_action_types/)",
 							"$ignoreInvalidRef": true,
 							"enum": [
 								"apoli:and",
@@ -702,7 +702,7 @@
 					"properties": {
 						"type": {
 							"description": "apoli:chance\nExecutes the provided action only with a specific chance.\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.",
-							"markdownDescription": "### `apoli:chance`\nExecutes the provided action only with a specific chance.\n## Entity Action Type\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.\n\n[Entity Action Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_Action_types/)",
+							"markdownDescription": "### `apoli:chance`\nExecutes the provided action only with a specific chance.\n## Entity Action Type\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.\n\n[Entity Action Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_action_types/)",
 							"$ignoreInvalidRef": true,
 							"enum": [
 								"apoli:chance",
@@ -748,7 +748,7 @@
 					"properties": {
 						"type": {
 							"description": "apoli:choice\nExecutes one of the provided actions, choosing randomly based on the assigned weights. The actions with higher weight values are more likely to be chosen.\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.",
-							"markdownDescription": "### `apoli:choice`\nExecutes one of the provided actions, choosing randomly based on the assigned weights. The actions with higher weight values are more likely to be chosen.\n## Entity Action Type\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.\n\n[Entity Action Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_Action_types/)",
+							"markdownDescription": "### `apoli:choice`\nExecutes one of the provided actions, choosing randomly based on the assigned weights. The actions with higher weight values are more likely to be chosen.\n## Entity Action Type\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.\n\n[Entity Action Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_action_types/)",
 							"$ignoreInvalidRef": true,
 							"enum": [
 								"apoli:choice",
@@ -796,7 +796,7 @@
 					"properties": {
 						"type": {
 							"description": "apoli:delay\nExecutes the provided action after a set amount of ticks.\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.",
-							"markdownDescription": "### `apoli:delay`\nExecutes the provided action after a set amount of ticks.\n## Entity Action Type\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.\n\n[Entity Action Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_Action_types/)",
+							"markdownDescription": "### `apoli:delay`\nExecutes the provided action after a set amount of ticks.\n## Entity Action Type\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.\n\n[Entity Action Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_action_types/)",
 							"$ignoreInvalidRef": true,
 							"enum": [
 								"apoli:delay",
@@ -838,7 +838,7 @@
 					"properties": {
 						"type": {
 							"description": "apoli:if_else\nExecutes an action only if a condition holds, and optionally executes another action when it doesn't hold.\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.",
-							"markdownDescription": "### `apoli:if_else`\nExecutes an action only if a condition holds, and optionally executes another action when it doesn't hold.\n## Entity Action Type\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.\n\n[Entity Action Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_Action_types/)",
+							"markdownDescription": "### `apoli:if_else`\nExecutes an action only if a condition holds, and optionally executes another action when it doesn't hold.\n## Entity Action Type\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.\n\n[Entity Action Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_action_types/)",
 							"$ignoreInvalidRef": true,
 							"enum": [
 								"apoli:if_else",
@@ -882,7 +882,7 @@
 					"properties": {
 						"type": {
 							"description": "apoli:if_else_list\nChecks a list of actions associated with conditions, and executes the first one in the list for which the condition holds. Basically a less indentation-heavy way to represent a deeply nested If-Else (Meta Action Type).\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.",
-							"markdownDescription": "### `apoli:if_else_list`\nChecks a list of actions associated with conditions, and executes the first one in the list for which the condition holds. Basically a less indentation-heavy way to represent a deeply nested If-Else (Meta Action Type).\n## Entity Action Type\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.\n\n[Entity Action Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_Action_types/)",
+							"markdownDescription": "### `apoli:if_else_list`\nChecks a list of actions associated with conditions, and executes the first one in the list for which the condition holds. Basically a less indentation-heavy way to represent a deeply nested If-Else (Meta Action Type).\n## Entity Action Type\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.\n\n[Entity Action Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_action_types/)",
 							"$ignoreInvalidRef": true,
 							"enum": [
 								"apoli:if_else_list",
@@ -932,7 +932,7 @@
 					"properties": {
 						"type": {
 							"description": "apoli:nothing\nDoes nothing. Can be used as a backup in case an action is not optional in some place.\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.",
-							"markdownDescription": "### `apoli:nothing`\nDoes nothing. Can be used as a backup in case an action is not optional in some place.\n## Entity Action Type\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.\n\n[Entity Action Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_Action_types/)",
+							"markdownDescription": "### `apoli:nothing`\nDoes nothing. Can be used as a backup in case an action is not optional in some place.\n## Entity Action Type\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.\n\n[Entity Action Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_action_types/)",
 							"$ignoreInvalidRef": true,
 							"enum": [
 								"apoli:nothing",
@@ -964,7 +964,7 @@
 					"properties": {
 						"type": {
 							"description": "apoli:side\nExecutes the specified action type on the specified \"side\".\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.",
-							"markdownDescription": "### `apoli:side`\nExecutes the specified action type on the specified \"side\".\n## Entity Action Type\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.\n\n[Entity Action Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_Action_types/)",
+							"markdownDescription": "### `apoli:side`\nExecutes the specified action type on the specified \"side\".\n## Entity Action Type\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.\n\n[Entity Action Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_action_types/)",
 							"$ignoreInvalidRef": true,
 							"enum": [
 								"apoli:side",
@@ -1159,7 +1159,7 @@
 					"properties": {
 						"type": {
 							"description": "eggolib:loop\nExecutes an action for the specified amount of iterations.\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.",
-							"markdownDescription": "### `eggolib:loop`\nExecutes an action for the specified amount of iterations.\n## Entity Action Type\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.\n\n[Entity Action Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_Action_types/)",
+							"markdownDescription": "### `eggolib:loop`\nExecutes an action for the specified amount of iterations.\n## Entity Action Type\nEntity Action Types operate on an Entity. Some more specific actions only have an effect on more specific entity types (e.g. Exhaust (Entity Action Type) only works on a PlayerEntity, as other entities do not have a hunger bar). These are available to power/action types that provides a entity_action object field.\n\n[Entity Action Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_action_types/)",
 							"$ignoreInvalidRef": true,
 							"const": "eggolib:loop"
 						},

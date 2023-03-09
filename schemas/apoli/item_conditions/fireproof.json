@@ -7,7 +7,7 @@
 	"properties": {
 		"type": {
 			"description": "apoli:fireproof\nChecks if the item stack is fireproof.\nItem Condition Types operate on an ItemStack. These are available to power/condition types that provides an item_condition object field.",
-			"markdownDescription": "### `apoli:fireproof`\nChecks if the item stack is fireproof.\n## Item Condition Type\nItem Condition Types operate on an ItemStack. These are available to power/condition types that provides an item_condition object field.\n\n[Item Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/item_Condition_types/)",
+			"markdownDescription": "### `apoli:fireproof`\nChecks if the item stack is fireproof.\n## Item Condition Type\nItem Condition Types operate on an ItemStack. These are available to power/condition types that provides an item_condition object field.\n\n[Item Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/item_condition_types/)",
 			"enum": [
 				"apoli:fireproof",
 				"origins:fireproof"

@@ -7,7 +7,7 @@
 	"properties": {
 		"type": {
 			"description": "apoli:high_humidity\nChecks whether the biome counts as an area with high humidity.\nBiome Condition Types operate on a Biome.",
-			"markdownDescription": "### `apoli:high_humidity`\nChecks whether the biome counts as an area with high humidity.\n## Biome Condition Type\nBiome Condition Types operate on a Biome.\n\n[Biome Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/biome_Condition_types/)",
+			"markdownDescription": "### `apoli:high_humidity`\nChecks whether the biome counts as an area with high humidity.\n## Biome Condition Type\nBiome Condition Types operate on a Biome.\n\n[Biome Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/biome_condition_types/)",
 			"enum": [
 				"apoli:high_humidity",
 				"origins:high_humidity"

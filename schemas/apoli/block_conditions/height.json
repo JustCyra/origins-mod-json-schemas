@@ -9,7 +9,7 @@
 	"properties": {
 		"type": {
 			"description": "apoli:height\nCompares the Y position of the block to a value.\nBlock Condition Types operate on CachedBlockPosition, essentially a combination of World and BlockPos, which allows retrieving all necessary information about the block. These are available to power/condition types that provides a block_condition object field.",
-			"markdownDescription": "### `apoli:height`\nCompares the Y position of the block to a value.\n## Block Condition Type\nBlock Condition Types operate on CachedBlockPosition, essentially a combination of World and BlockPos, which allows retrieving all necessary information about the block. These are available to power/condition types that provides a block_condition object field.\n\n[Block Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/block_Condition_types/)",
+			"markdownDescription": "### `apoli:height`\nCompares the Y position of the block to a value.\n## Block Condition Type\nBlock Condition Types operate on CachedBlockPosition, essentially a combination of World and BlockPos, which allows retrieving all necessary information about the block. These are available to power/condition types that provides a block_condition object field.\n\n[Block Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/block_condition_types/)",
 			"enum": [
 				"apoli:height",
 				"origins:height"

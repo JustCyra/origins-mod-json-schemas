@@ -2,7 +2,7 @@
 	"$id": "https://snavesutit.github.io/origins-mod-schemas/schemas/entity_condition.json",
 	"title": "Entity Condition Type",
 	"description": "Entity Condition Types operate on an Entity, which also allows access to the world. These are available to be used in most powers in the condition object field (or entity_condition in other power/condition types), which restricts when a power is active.",
-	"markdownDescription": "## Entity Condition Type\nEntity Condition Types operate on an Entity, which also allows access to the world. These are available to be used in most powers in the condition object field (or entity_condition in other power/condition types), which restricts when a power is active.\n\n[Entity Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_Condition_types/)",
+	"markdownDescription": "## Entity Condition Type\nEntity Condition Types operate on an Entity, which also allows access to the world. These are available to be used in most powers in the condition object field (or entity_condition in other power/condition types), which restricts when a power is active.\n\n[Entity Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_condition_types/)",
 	"type": "object",
 	"required": [
 		"type"
@@ -556,24 +556,6 @@
 					"properties": {
 						"type": {
 							"enum": [
-								"apoli:invisible",
-								"origins:invisible"
-							]
-						}
-					}
-				},
-				"then": {
-					"$ref": "apoli/entity_conditions/invisible.json"
-				}
-			},
-			{
-				"if": {
-					"required": [
-						"type"
-					],
-					"properties": {
-						"type": {
-							"enum": [
 								"apoli:in_block",
 								"origins:in_block"
 							]
@@ -636,6 +618,24 @@
 				},
 				"then": {
 					"$ref": "apoli/entity_conditions/in_tag.json"
+				}
+			},
+			{
+				"if": {
+					"required": [
+						"type"
+					],
+					"properties": {
+						"type": {
+							"enum": [
+								"apoli:invisible",
+								"origins:invisible"
+							]
+						}
+					}
+				},
+				"then": {
+					"$ref": "apoli/entity_conditions/invisible.json"
 				}
 			},
 			{
@@ -1221,7 +1221,7 @@
 					"properties": {
 						"type": {
 							"description": "apoli:and\nChecks whether all of the provided conditions are fulfilled.\nEntity Condition Types operate on an Entity, which also allows access to the world. These are available to be used in most powers in the condition object field (or entity_condition in other power/condition types), which restricts when a power is active.",
-							"markdownDescription": "### `apoli:and`\nChecks whether all of the provided conditions are fulfilled.\n## Entity Condition Type\nEntity Condition Types operate on an Entity, which also allows access to the world. These are available to be used in most powers in the condition object field (or entity_condition in other power/condition types), which restricts when a power is active.\n\n[Entity Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_Condition_types/)",
+							"markdownDescription": "### `apoli:and`\nChecks whether all of the provided conditions are fulfilled.\n## Entity Condition Type\nEntity Condition Types operate on an Entity, which also allows access to the world. These are available to be used in most powers in the condition object field (or entity_condition in other power/condition types), which restricts when a power is active.\n\n[Entity Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_condition_types/)",
 							"$ignoreInvalidRef": true,
 							"enum": [
 								"apoli:and",
@@ -1263,7 +1263,7 @@
 					"properties": {
 						"type": {
 							"description": "apoli:constant\nProvides a constant state where it's either true or false. Mainly added as a backup case in case a condition is required in some power/action/condition types.\nEntity Condition Types operate on an Entity, which also allows access to the world. These are available to be used in most powers in the condition object field (or entity_condition in other power/condition types), which restricts when a power is active.",
-							"markdownDescription": "### `apoli:constant`\nProvides a constant state where it's either true or false. Mainly added as a backup case in case a condition is required in some power/action/condition types.\n## Entity Condition Type\nEntity Condition Types operate on an Entity, which also allows access to the world. These are available to be used in most powers in the condition object field (or entity_condition in other power/condition types), which restricts when a power is active.\n\n[Entity Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_Condition_types/)",
+							"markdownDescription": "### `apoli:constant`\nProvides a constant state where it's either true or false. Mainly added as a backup case in case a condition is required in some power/action/condition types.\n## Entity Condition Type\nEntity Condition Types operate on an Entity, which also allows access to the world. These are available to be used in most powers in the condition object field (or entity_condition in other power/condition types), which restricts when a power is active.\n\n[Entity Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_condition_types/)",
 							"$ignoreInvalidRef": true,
 							"enum": [
 								"apoli:constant",
@@ -1302,7 +1302,7 @@
 					"properties": {
 						"type": {
 							"description": "apoli:or\nChecks whether any (one or more) of the provided conditions are fulfilled.\nEntity Condition Types operate on an Entity, which also allows access to the world. These are available to be used in most powers in the condition object field (or entity_condition in other power/condition types), which restricts when a power is active.",
-							"markdownDescription": "### `apoli:or`\nChecks whether any (one or more) of the provided conditions are fulfilled.\n## Entity Condition Type\nEntity Condition Types operate on an Entity, which also allows access to the world. These are available to be used in most powers in the condition object field (or entity_condition in other power/condition types), which restricts when a power is active.\n\n[Entity Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_Condition_types/)",
+							"markdownDescription": "### `apoli:or`\nChecks whether any (one or more) of the provided conditions are fulfilled.\n## Entity Condition Type\nEntity Condition Types operate on an Entity, which also allows access to the world. These are available to be used in most powers in the condition object field (or entity_condition in other power/condition types), which restricts when a power is active.\n\n[Entity Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_condition_types/)",
 							"$ignoreInvalidRef": true,
 							"enum": [
 								"apoli:or",
@@ -1409,12 +1409,12 @@
 					],
 					"properties": {
 						"type": {
-							"const": "eggolib:inventory"
+							"const": "eggolib:in_screen"
 						}
 					}
 				},
 				"then": {
-					"$ref": "eggolib/entity_conditions/inventory.json"
+					"$ref": "eggolib/entity_conditions/in_screen.json"
 				}
 			},
 			{
@@ -1424,12 +1424,12 @@
 					],
 					"properties": {
 						"type": {
-							"const": "eggolib:in_screen"
+							"const": "eggolib:inventory"
 						}
 					}
 				},
 				"then": {
-					"$ref": "eggolib/entity_conditions/in_screen.json"
+					"$ref": "eggolib/entity_conditions/inventory.json"
 				}
 			},
 			{

@@ -10,7 +10,7 @@
 	"properties": {
 		"type": {
 			"description": "apoli:fluid_height\nChecks how high a specific fluid is at the entity. A fluid height of 0 means the entity is not touching the fluid.\nEntity Condition Types operate on an Entity, which also allows access to the world. These are available to be used in most powers in the condition object field (or entity_condition in other power/condition types), which restricts when a power is active.",
-			"markdownDescription": "### `apoli:fluid_height`\nChecks how high a specific fluid is at the entity. A fluid height of 0 means the entity is not touching the fluid.\n## Entity Condition Type\nEntity Condition Types operate on an Entity, which also allows access to the world. These are available to be used in most powers in the condition object field (or entity_condition in other power/condition types), which restricts when a power is active.\n\n[Entity Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_Condition_types/)",
+			"markdownDescription": "### `apoli:fluid_height`\nChecks how high a specific fluid is at the entity. A fluid height of 0 means the entity is not touching the fluid.\n## Entity Condition Type\nEntity Condition Types operate on an Entity, which also allows access to the world. These are available to be used in most powers in the condition object field (or entity_condition in other power/condition types), which restricts when a power is active.\n\n[Entity Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_condition_types/)",
 			"enum": [
 				"apoli:fluid_height",
 				"origins:fluid_height"

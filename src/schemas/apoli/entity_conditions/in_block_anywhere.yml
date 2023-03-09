@@ -3,8 +3,6 @@ type: object
 required:
   - type
   - block_condition
-  - comparison
-  - compare_to
 properties:
   type:
     description: |-

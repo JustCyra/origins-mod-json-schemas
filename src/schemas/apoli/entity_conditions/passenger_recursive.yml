@@ -2,8 +2,6 @@ $id: https://snavesutit.github.io/origins-mod-schemas/
 type: object
 required:
   - type
-  - comparison
-  - compare_to
 properties:
   type:
     description: |-

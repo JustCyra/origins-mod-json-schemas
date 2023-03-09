@@ -7,7 +7,7 @@
 	"properties": {
 		"type": {
 			"description": "eggolib:block_item\nChecks whether the item is a block item (e.g: An item that can place blocks).\nItem Condition Types operate on an ItemStack. These are available to power/condition types that provides an item_condition object field.",
-			"markdownDescription": "### `eggolib:block_item`\nChecks whether the item is a block item (e.g: An item that can place blocks).\n## Item Condition Type\nItem Condition Types operate on an ItemStack. These are available to power/condition types that provides an item_condition object field.\n\n[Item Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/item_Condition_types/)",
+			"markdownDescription": "### `eggolib:block_item`\nChecks whether the item is a block item (e.g: An item that can place blocks).\n## Item Condition Type\nItem Condition Types operate on an ItemStack. These are available to power/condition types that provides an item_condition object field.\n\n[Item Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/item_condition_types/)",
 			"const": "eggolib:block_item"
 		}
 	}

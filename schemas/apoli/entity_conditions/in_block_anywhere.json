@@ -3,14 +3,12 @@
 	"type": "object",
 	"required": [
 		"type",
-		"block_condition",
-		"comparison",
-		"compare_to"
+		"block_condition"
 	],
 	"properties": {
 		"type": {
 			"description": "apoli:in_block_anywhere\nChecks how many blocks are overlapping with the entity's eyes or feet.\nEntity Condition Types operate on an Entity, which also allows access to the world. These are available to be used in most powers in the condition object field (or entity_condition in other power/condition types), which restricts when a power is active.",
-			"markdownDescription": "### `apoli:in_block_anywhere`\nChecks how many blocks are overlapping with the entity's eyes or feet.\n## Entity Condition Type\nEntity Condition Types operate on an Entity, which also allows access to the world. These are available to be used in most powers in the condition object field (or entity_condition in other power/condition types), which restricts when a power is active.\n\n[Entity Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_Condition_types/)",
+			"markdownDescription": "### `apoli:in_block_anywhere`\nChecks how many blocks are overlapping with the entity's eyes or feet.\n## Entity Condition Type\nEntity Condition Types operate on an Entity, which also allows access to the world. These are available to be used in most powers in the condition object field (or entity_condition in other power/condition types), which restricts when a power is active.\n\n[Entity Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/entity_condition_types/)",
 			"enum": [
 				"apoli:in_block_anywhere",
 				"origins:in_block_anywhere"

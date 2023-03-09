@@ -5,7 +5,7 @@ markdownDescription: |-
   ## Block Condition Type
   Block Condition Types operate on CachedBlockPosition, essentially a combination of World and BlockPos, which allows retrieving all necessary information about the block. These are available to power/condition types that provides a block_condition object field.
 
-  [Block Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/block_Condition_types/)
+  [Block Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/block_condition_types/)
 type: object
 required:
   - type

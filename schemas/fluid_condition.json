@@ -2,7 +2,7 @@
 	"$id": "https://snavesutit.github.io/origins-mod-schemas/schemas/fluid_condition.json",
 	"title": "Fluid Condition Type",
 	"description": "Fluid Condition Types operate on a FluidState, essentially which fluid (if any) exists, as well as properties of the fluid. These are available to power/condition types that provides a fluid_condition object field.",
-	"markdownDescription": "## Fluid Condition Type\nFluid Condition Types operate on a FluidState, essentially which fluid (if any) exists, as well as properties of the fluid. These are available to power/condition types that provides a fluid_condition object field.\n\n[Fluid Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/fluid_Condition_types/)",
+	"markdownDescription": "## Fluid Condition Type\nFluid Condition Types operate on a FluidState, essentially which fluid (if any) exists, as well as properties of the fluid. These are available to power/condition types that provides a fluid_condition object field.\n\n[Fluid Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/fluid_condition_types/)",
 	"type": "object",
 	"required": [
 		"type"
@@ -93,7 +93,7 @@
 					"properties": {
 						"type": {
 							"description": "apoli:and\nChecks whether all of the provided conditions are fulfilled.\nFluid Condition Types operate on a FluidState, essentially which fluid (if any) exists, as well as properties of the fluid. These are available to power/condition types that provides a fluid_condition object field.",
-							"markdownDescription": "### `apoli:and`\nChecks whether all of the provided conditions are fulfilled.\n## Fluid Condition Type\nFluid Condition Types operate on a FluidState, essentially which fluid (if any) exists, as well as properties of the fluid. These are available to power/condition types that provides a fluid_condition object field.\n\n[Fluid Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/fluid_Condition_types/)",
+							"markdownDescription": "### `apoli:and`\nChecks whether all of the provided conditions are fulfilled.\n## Fluid Condition Type\nFluid Condition Types operate on a FluidState, essentially which fluid (if any) exists, as well as properties of the fluid. These are available to power/condition types that provides a fluid_condition object field.\n\n[Fluid Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/fluid_condition_types/)",
 							"$ignoreInvalidRef": true,
 							"enum": [
 								"apoli:and",
@@ -132,7 +132,7 @@
 					"properties": {
 						"type": {
 							"description": "apoli:constant\nProvides a constant state where it's either true or false. Mainly added as a backup case in case a condition is required in some power/action/condition types.\nFluid Condition Types operate on a FluidState, essentially which fluid (if any) exists, as well as properties of the fluid. These are available to power/condition types that provides a fluid_condition object field.",
-							"markdownDescription": "### `apoli:constant`\nProvides a constant state where it's either true or false. Mainly added as a backup case in case a condition is required in some power/action/condition types.\n## Fluid Condition Type\nFluid Condition Types operate on a FluidState, essentially which fluid (if any) exists, as well as properties of the fluid. These are available to power/condition types that provides a fluid_condition object field.\n\n[Fluid Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/fluid_Condition_types/)",
+							"markdownDescription": "### `apoli:constant`\nProvides a constant state where it's either true or false. Mainly added as a backup case in case a condition is required in some power/action/condition types.\n## Fluid Condition Type\nFluid Condition Types operate on a FluidState, essentially which fluid (if any) exists, as well as properties of the fluid. These are available to power/condition types that provides a fluid_condition object field.\n\n[Fluid Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/fluid_condition_types/)",
 							"$ignoreInvalidRef": true,
 							"enum": [
 								"apoli:constant",
@@ -168,7 +168,7 @@
 					"properties": {
 						"type": {
 							"description": "apoli:or\nChecks whether any (one or more) of the provided conditions are fulfilled.\nFluid Condition Types operate on a FluidState, essentially which fluid (if any) exists, as well as properties of the fluid. These are available to power/condition types that provides a fluid_condition object field.",
-							"markdownDescription": "### `apoli:or`\nChecks whether any (one or more) of the provided conditions are fulfilled.\n## Fluid Condition Type\nFluid Condition Types operate on a FluidState, essentially which fluid (if any) exists, as well as properties of the fluid. These are available to power/condition types that provides a fluid_condition object field.\n\n[Fluid Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/fluid_Condition_types/)",
+							"markdownDescription": "### `apoli:or`\nChecks whether any (one or more) of the provided conditions are fulfilled.\n## Fluid Condition Type\nFluid Condition Types operate on a FluidState, essentially which fluid (if any) exists, as well as properties of the fluid. These are available to power/condition types that provides a fluid_condition object field.\n\n[Fluid Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/fluid_condition_types/)",
 							"$ignoreInvalidRef": true,
 							"enum": [
 								"apoli:or",

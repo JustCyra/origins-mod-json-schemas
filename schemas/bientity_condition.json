@@ -46,21 +46,6 @@
 					"properties": {
 						"type": {
 							"enum": [
-								"apoli:attacker",
-								"origins:attacker"
-							]
-						}
-					}
-				},
-				"then": {
-					"$ref": "apoli/bientity_conditions/attacker.json"
-				}
-			},
-			{
-				"if": {
-					"properties": {
-						"type": {
-							"enum": [
 								"apoli:attack_target",
 								"origins:attack_target"
 							]
@@ -69,6 +54,21 @@
 				},
 				"then": {
 					"$ref": "apoli/bientity_conditions/attack_target.json"
+				}
+			},
+			{
+				"if": {
+					"properties": {
+						"type": {
+							"enum": [
+								"apoli:attacker",
+								"origins:attacker"
+							]
+						}
+					}
+				},
+				"then": {
+					"$ref": "apoli/bientity_conditions/attacker.json"
 				}
 			},
 			{

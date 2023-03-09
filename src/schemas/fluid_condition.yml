@@ -5,7 +5,7 @@ markdownDescription: |-
   ## Fluid Condition Type
   Fluid Condition Types operate on a FluidState, essentially which fluid (if any) exists, as well as properties of the fluid. These are available to power/condition types that provides a fluid_condition object field.
 
-  [Fluid Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/fluid_Condition_types/)
+  [Fluid Condition Types Documentation](https://origins.readthedocs.io/en/latest/types/fluid_condition_types/)
 type: object
 required:
   - type
